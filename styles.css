@@ -1,8 +1,73 @@
+body {
+    background-color: rgb(208, 161, 247);
+}
+
+nav {
+    background-color: blueviolet;
+    padding: 10px;
+    
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 10%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(70, 5, 166);
+}
+
+.navbar a:visited{
+    color: rgb(70, 5, 166);
+}
+
+.navbar a:hover{
+    font-size: larger;
+    font-style: italic;
+    color:greenyellow;
+}
+
 h1 {
     color:greenyellow
 
 }
 
-body {
-    background-color: rgb(208, 161, 247);
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+ #thumbnail{
+  width: 30px;
+}
+
+#thumbnail:hover {
+    width: 40px;
+}
+
+#about a{
+    text-decoration: none;
+}
+
+/* #contact {
+    display: flex;
+} */
+
+#email {
+    color:rgb(99, 76, 234)
+}
+
+#email:hover{
+    font-size: large;
+}
+
+#skills img {
+    width: 30px;
+}
+
+#skills img:hover {
+    width: 40px;
 }
