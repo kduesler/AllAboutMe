@@ -64,6 +64,13 @@ h1 {
     font-size: large;
 }
 
+#skills-container {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: flex;
+    gap: 13px;
+}
+
 #skills img {
     width: 30px;
 }

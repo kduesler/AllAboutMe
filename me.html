@@ -44,8 +44,8 @@
 
       <h4>Here is a list of things I enjoy in no particular order:</h4>
 
-      <summary>
         <details>
+          <summary>Things I like</summary>
           <ul>
             <li>swimming laps and open water when its nice outside🏊🩲</li>
             <li>playing Guitar and singing songs🎸🎶👨‍🎤</li>
@@ -71,13 +71,14 @@
             <li>learning new things such as Software Engineering💻</li>
           </ul>
         </details>
-      </summary>
+    
     </section>
 
     <section id="projects">
       <h4>Here are some projects I've worked on:</h4>
       <summary>
         <details>
+          <summary>Rock Paper Scissors</summary>
           <h1>Rock Paper Scissors</h1>
 
           <input type="button" value="Rock" id="rock" />
@@ -89,14 +90,36 @@
           <p id="comp-result"></p>
           <p id="game-results"></p>
         </details>
+        <details>
+          <summary>Temperature Converter</summary>
+          <h1>Temperature Converter</h1>
+            <p id="far">Fahrenheit</p>
+            <input type="number" id="inputF"></input>
+            <button id="FtoCbutton">Convert Fahrenheit to Celsius</button>
+
+            <p id="cel">Celsius</p>
+            <input type="number" id="inputC"></input>
+            <button id="CtoFbutton">Convert Celsius to Fahrenheit</button>
+        </details>
       </summary>
     </section>
 
     <section id="skills" class="container">
       <h4>Skills</h4>
-      <img src="images/html.png"></img>
-      <img src="images/css.png"></img>
-      <img src="images/java-script.png"></img>
+      <div id="skills-container"><div>
+        <img src="images/html.png"></img>
+        <p>HTML</p>
+      </div>
+      <div>
+        <img src="images/css.png">
+        </img>
+        <p>CSS</p>
+      </div>
+      <div>
+        <img src="images/java-script.png"></img>
+      <p>JavaScript</p>
+    </div>
+      </div>
     </section>
 
     </section>
